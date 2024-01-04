@@ -629,10 +629,20 @@ img {
   font-size: 2rem;
   margin-bottom: 1.5rem;
 }
+.navbar{
+    position: sticky;
+    overflow: hidden;
+    position:-webkit-sticky;
+}
 .fast{
     text-decoration: underline;
     color: red;
 }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
 .recipes .products .card .price {
   font-size: 2rem;
   margin-bottom: 2rem;
